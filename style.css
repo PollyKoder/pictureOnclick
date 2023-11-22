@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 35px;
+    padding: 5px;
+}
+
+body {
+    background-color: #52a3d6;
+}
+
+.container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    padding: 1em;
+}
+
+.divCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+/* .fox {
+    background-image: url(Images/theFoxies.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.para {
+    background-image: url(Images/Paramore.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.pluto {
+    background-image: url(Images/unlikePluto.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.cleo {
+    background-image: url(Images/Cleopatrick.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+. */
