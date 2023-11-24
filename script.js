@@ -1,7 +1,7 @@
 const imgScale = document.querySelector(".img");
 
 function sizeUp() {
-
+    
 }
 
 
