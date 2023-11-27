@@ -109,3 +109,4 @@ grand.addEventListener("click", sizeUpSix);
 
 //Vet det er mye rot i koden her, men som sikkert er mulig å se, så har prøvd diverse
 //metoder, ga opp helt... Fikk så hjelp av Julie, slik at koden i alle fall fungerer.
+//Ikke helt funksjonabelt for diverse skjerm størrelser...
