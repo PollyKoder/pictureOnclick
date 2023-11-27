@@ -54,6 +54,17 @@ body {
     cursor: pointer
 }
 
+.imgSizeUp {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.3);
+    max-width: 750px;
+    max-height: 750px;
+    cursor: pointer
+}
+
 
 /*Media query to adjust for different screen sizes*/
 @media (max-width:768px) {
