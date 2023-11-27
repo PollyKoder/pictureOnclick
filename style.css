@@ -38,6 +38,43 @@ body {
     cursor: pointer;
 }
 
+.img:hover {
+    transform: scale(1.025);
+
+}
+
+.imgSizeUp {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.3);
+    max-width: 750px;
+    max-height: 750px;
+    cursor: pointer
+}
+
+
+/*Media query to adjust for different screen sizes*/
+@media (max-width:768px) {
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:426px) {
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+
 /* .fox {
     background-image: url(Images/theFoxies.jpg);
     background-size: contain;

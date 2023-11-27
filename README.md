@@ -26,3 +26,20 @@
 - Ser at denne funksjonen hadde vært lettere å få til med noe som heter Lightbox kit, verdt å gjære mer studier rundt hva Lightbox er og hvordan jeg bruker det. Googlet litt, det er en visst en plugin. (Photoswipe?)
 
 - 
+
+
+- js notater fra lærer sitt eksempel:
+//notat: eksempel fra lærer, fra gjennomgang før lunsj
+//hent element via querysleletor
+//add eventlistener to given key word
+//use arrow function
+//NB, this works if there are two css classes to adjust the size!
+//let imgSmall(ccs class1) = true
+//img.add event listener("click" () => {
+//     if else  to change class with .classList = css class2
+// })
+
+//Dette gjør kun  bilde stort, intet skjer etter bilde er blitt stort...
+
+//for å gjøre bilde mindre når vi klikker på det igjen:
+//endre på else statement for å få den til å gjøre true/false justerbart 
