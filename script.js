@@ -44,9 +44,28 @@ function sizeUpTwo() {
 }
 para.addEventListener("click", sizeUpTwo);
 
+
 function sizeUpThree() {
     pluto.classList.toggle("imgSizeUp");
 }
+pluto.addEventListener("click", sizeUpThree);
+
+
+function sizeUpFour() {
+    cleo.classList.toggle("imgSizeUp");
+}
+cleo.addEventListener("click", sizeUpFour);
+
+function sizeUpFive() {
+    paris.classList.toggle("imgSizeUp");
+}
+paris.addEventListener("click", sizeUpFive);
+
+
+function sizeUpSix() {
+    grand.classList.toggle("imgSizeUp");
+}
+grand.addEventListener("click", sizeUpSix);
 
 //Notes from Julie:
 // const fox = document.querySelector("#fox);
@@ -88,8 +107,5 @@ function sizeUpThree() {
 
 
 
-//Nope, nothing works and I don't know what I'm doing wrong because I don't know what I'm supposed to do in the first place. 
-//Do not give me the "Use ChatGPT" speech, I would if it worked, but the page has just collapsed EVERY TIME I try to use it. 
-//Besides what's the point in trying to learn coding if we're just supposed to use ChatPGT before we even understand js coding??
-
-// I'm done 
+//Vet det er mye rot i koden her, men som sikkert er mulig å se, så har prøvd diverse
+//metoder, ga opp helt... Fikk så hjelp av Julie, slik at koden i alle fall fungerer.
